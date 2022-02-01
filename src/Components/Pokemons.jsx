@@ -25,7 +25,7 @@ const Pokemons = () => {
 
    //Api traidas y guardadas en un state
    useEffect(()=>{
-    axios.get("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=150")
+    axios.get("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=300")
     .then(res => setAllPokemons(res.data.results))
    },[])
 
@@ -134,7 +134,7 @@ const Pokemons = () => {
                 </div>
 
                 
-                <div>
+                <div className='container-pages'>
                   {
                     numberPages.map(number => 
                         <button key={number} onClick={() => setPage(number)}>

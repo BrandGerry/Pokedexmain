@@ -31,7 +31,7 @@ const PokeId = () => {
             <div className="first-section-id">
                 <div className="first-section-cont">
                     <div className="container-back">
-                        <i onClick={back}>Back</i>
+                        <i onClick={back} class="fas fa-arrow-circle-left fa-2x"></i>
                     </div>
                     <div className="info-cont">
                         <img src={pokeIdData.sprites?.other?.dream_world?.front_default} alt={pokeIdData.name} className='img-pokemin'/>

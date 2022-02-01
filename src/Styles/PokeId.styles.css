@@ -2,6 +2,14 @@
     margin: 0;
     padding: 0;
 }
+.container-back {
+    margin: 10px;
+    height: 100%;
+}
+.container-back i{
+    color: rgb(58, 64, 68);
+    
+}
 .info-cont{
     display: flex;
     align-items: center;
@@ -97,14 +105,6 @@ h4 {
      width: 50%;
      padding: 0 0 1px 3px;
 }
-
-
-
-
-
-
-
-
 
 
 .normal {
