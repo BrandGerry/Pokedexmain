@@ -1,0 +1,77 @@
+* {
+    
+    padding: 0;
+    margin: 0;
+}
+.Login_welcome {
+    height: 100vh;
+    background-image: url("../Imagenes/pokebolafondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.first_text{
+    padding-top: 5px;
+    font-size: 5rem;
+    background-color: rgba(235, 245, 245, 0.568);
+    width: 100%;
+    height: 3.5rem;
+    text-align: center;
+}
+.second_section{
+    padding-top: 30px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first_text{
+    font-size: 20px;
+}
+.third_section{
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.container_input{
+    width: 30%;
+    height: 100px;
+    background-color: #b206008e;
+    border-radius: 1rem;
+    backdrop-filter: blur(1px);
+    color: rgb(26, 25, 24);
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+h3{
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label > input {
+    text-align: center;
+}
+button {
+    width: 4rem;
+    padding: 3px;
+    border: solid 1px rgba(128, 128, 128, 0.63);
+    border-radius: 5px;
+    background-color: rgba(193, 217, 223, 0.911);
+    opacity: 80%;
+}
+button:hover {
+    background-color: rgba(67, 66, 71, 0.911);
+    cursor: pointer;
+}
+
+    

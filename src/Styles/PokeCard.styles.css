@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-size: 30px;
+}
+li {
+    list-style-type: none;
+    border: solid 1px rgba(71, 44, 44, 0.623);
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    margin-left: 20px;
+    height: 130px;
+    display: flex;
+    padding: 5px 10px;
+    position: relative;
+    box-shadow: 12px 11px 18px -3px rgb(80, 80, 80);
+    transition: all 0.3s ease;
+    width: 30%;
+
+}
+li:hover {
+    transform: translateY(-7px);
+}
+.third-sect > img {
+    position: absolute;
+    bottom: 40%;
+    left: 60%;
+    height: 7rem;
+    width: auto;
+}
+.second-sect{
+    margin-left: 15px;
+}
+p{
+    font-size: 18px;
+}
+
+.container-type {
+    display: flex;
+    flex-direction: row;
+}
+.container-type > p {
+    margin-right: 5px;
+}
+h5 {
+    margin: 5px 7px 0 5px;
+}
+.normal {
+    background-color: rgb(206, 197, 159);
+}
+.grass {
+    background-color: rgba(58, 131, 58, 0.589);
+}
+.fighting {
+    background-color: rgba(92, 76, 79, 0.849);
+}
+.poison {
+    background-color: rgba(114, 41, 92, 0.87);
+}
+.ground {
+    background-color: rgba(128, 64, 36, 0.808);
+}
+.rock {
+    background-color: hsla(0, 3%, 29%, 0.836);
+}
+.bug {
+    background-color: rgba(181, 230, 84, 0.884);
+}
+.ghost {
+    background-color: rgba(132, 139, 199, 0.822);
+}
+.steel {
+    background-color: rgb(99, 101, 104);
+}
+.fire {
+    background-color: rgba(218, 39, 27, 0.733);
+}
+.water {
+    background-color: rgb(89, 136, 180);
+}
+.electric {
+    background-color: rgba(230, 209, 21, 0.897);
+}
+.psychic {
+    background-color: rgb(228, 184, 215);
+}
+.ice {
+    background-color: rgb(89, 137, 209);
+}
+.dragon {
+    background-color: rgb(187, 110, 74);
+}
+.dark {
+    background-color: rgba(27, 25, 25, 0.692);
+}
+.fairy {
+    background-color: rgba(196, 127, 196, 0.829);
+}
