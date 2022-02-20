@@ -10,6 +10,7 @@ import "../Styles/PokeCard.styles.css"
 const PokeCard = ({name,url}) => {
 
     const[pokemonData,setPokemonData] = useState([])
+    console.log(pokemonData)
     const navigate = useNavigate();
 
     useEffect(() => {
